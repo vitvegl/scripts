@@ -1,0 +1,22 @@
+deb https://ftp.lysator.liu.se/pub/ubuntu/ xenial main restricted
+#deb-src https://ftp.lysator.liu.se/pub/ubuntu/ xenial main restricted
+deb https://ftp.lysator.liu.se/pub/ubuntu/ xenial-updates main restricted
+#deb-src https://ftp.lysator.liu.se/pub/ubuntu/ xenial-updates main restricted
+deb https://ftp.lysator.liu.se/pub/ubuntu/ xenial universe
+#deb-src https://ftp.lysator.liu.se/pub/ubuntu/ xenial universe
+deb https://ftp.lysator.liu.se/pub/ubuntu/ xenial-updates universe
+#deb-src https://ftp.lysator.liu.se/pub/ubuntu/ xenial-updates universe
+deb https://ftp.lysator.liu.se/pub/ubuntu/ xenial multiverse
+#deb-src https://ftp.lysator.liu.se/pub/ubuntu/ xenial multiverse
+deb https://ftp.lysator.liu.se/pub/ubuntu/ xenial-updates multiverse
+#deb-src https://ftp.lysator.liu.se/pub/ubuntu/ xenial-updates multiverse
+deb https://ftp.lysator.liu.se/pub/ubuntu/ xenial-backports main restricted universe multiverse
+#deb-src https://ftp.lysator.liu.se/pub/ubuntu/ xenial-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu xenial partner
+# deb-src http://archive.canonical.com/ubuntu xenial partner
+deb http://security.ubuntu.com/ubuntu xenial-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu xenial-security main restricted
+deb http://security.ubuntu.com/ubuntu xenial-security universe
+# deb-src http://security.ubuntu.com/ubuntu xenial-security universe
+deb http://security.ubuntu.com/ubuntu xenial-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse
