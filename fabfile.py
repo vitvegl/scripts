@@ -74,7 +74,7 @@ def resolvconf_fix():
     ''' resolvconf fix
     '''
     if os.path.islink('/etc/resolv.conf'):
-        os.remove(rconf)
+        os.remove('/etc/resolv.conf')
         local('systemctl disable resolvconf')
         local('systemctl stop resolvconf')
         local('systemctl mask resolvconf')
